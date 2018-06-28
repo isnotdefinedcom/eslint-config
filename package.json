@@ -1,0 +1,26 @@
+{
+	"name": "eslint-config-redaxmedia",
+	"description": "Yet another JavaScript coding standard",
+	"version": "1.0.0",
+	"license": "GPL-3.0",
+	"keywords":
+	[
+		"javascript",
+		"coding",
+		"standard"
+	],
+	"author":
+	{
+		"name": "Henry Ruhs",
+		"url": "https://redaxmedia.com"
+	},
+	"bugs":
+	{
+		"url": "https://github.com/redaxmedia/eslint-config-redaxmedia/issues"
+	},
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/redaxmedia/eslint-config-redaxmedia.git"
+	}
+}
