@@ -24,7 +24,7 @@ Refer the coding standard inside your `.eslintrc` file:
 {
 	"extends":
 	[
-		"redaxmedia"
+		"eslint-config-redaxmedia"
 	]
 }
 ```
