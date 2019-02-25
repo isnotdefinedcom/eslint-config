@@ -10,6 +10,7 @@
 			"error",
 			"allman"
 		],
+		"comma-dangle": "error",
 		"indent":
 		[
 			"error",
@@ -26,6 +27,8 @@
 				]
 			}
 		],
+		"newline-after-var": "error",
+		"no-var": "error",
 		"object-shorthand": "error"
 	}
 }
