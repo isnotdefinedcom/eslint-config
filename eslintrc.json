@@ -29,6 +29,7 @@
 		],
 		"newline-after-var": "error",
 		"no-var": "error",
-		"object-shorthand": "error"
+		"object-shorthand": "error",
+		"semi": "error"
 	}
 }
