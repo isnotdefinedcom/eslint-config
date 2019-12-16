@@ -11,6 +11,7 @@
 			"allman"
 		],
 		"comma-dangle": "error",
+		"comma-spacing": "error",
 		"indent":
 		[
 			"error",
