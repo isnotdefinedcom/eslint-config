@@ -37,7 +37,13 @@
 		"jsdoc/require-param": "error",
 		"jsdoc/require-param-name": "error",
 		"jsdoc/require-param-type": "error",
-		"jsdoc/require-returns": "error",
+		"jsdoc/require-returns":
+		[
+			"error",
+			{
+				"forceRequireReturn": true
+			}
+		],
 		"jsdoc/require-returns-check": "error",
 		"jsdoc/require-returns-type": "error",
 		"newline-after-var": "error",
