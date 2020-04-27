@@ -49,11 +49,14 @@
 		"newline-after-var": "error",
 		"no-var": "error",
 		"object-shorthand": "error",
+		"promise/always-return": "error",
+		"promise/no-new-statics": "error",
 		"semi": "error"
 	},
 	"plugins":
 	[
-		"jsdoc"
+		"jsdoc",
+		"promise"
 	],
 	"settings":
 	{

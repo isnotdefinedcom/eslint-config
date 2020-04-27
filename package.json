@@ -1,7 +1,7 @@
 {
 	"name": "eslint-config-redaxmedia",
 	"description": "Yet another JavaScript coding standard",
-	"version": "2.0.0",
+	"version": "2.1.0.beta-1",
 	"license": "GPL-3.0",
 	"keywords":
 	[
@@ -25,6 +25,7 @@
 	},
 	"dependencies":
 	{
-		"eslint-plugin-jsdoc": "22.1.0"
+		"eslint-plugin-jsdoc": "22.1.0",
+		"eslint-plugin-promise": "4.2.1"
 	}
 }
