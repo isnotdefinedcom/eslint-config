@@ -49,8 +49,7 @@
 		"newline-after-var": "error",
 		"no-var": "error",
 		"object-shorthand": "error",
-		"promise/always-return": "error",
-		"promise/no-new-statics": "error",
+		"promise/catch-or-return": "error",
 		"semi": "error"
 	},
 	"plugins":
