@@ -1,7 +1,7 @@
 ESLint Config Redaxmedia
 ========================
 
-> Yet another JavaScript and Typescript coding standard.
+> Yet another JavaScript and TypeScript coding standard.
 
 [![NPM Version](https://img.shields.io/npm/v/eslint-config-redaxmedia.svg)](https://npmjs.com/package/eslint-config-redaxmedia)
 [![License](https://img.shields.io/npm/l/eslint-config-redaxmedia.svg)](https://npmjs.com/package/eslint-config-redaxmedia)
