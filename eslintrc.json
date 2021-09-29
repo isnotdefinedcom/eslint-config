@@ -51,6 +51,11 @@
 				"object-shorthand": "error",
 				"prefer-const": "error",
 				"promise/catch-or-return": "error",
+				"quotes":
+				[
+					"error",
+					"single"
+				],
 				"semi": "error"
 			}
 		},
@@ -110,7 +115,14 @@
 			],
 			"rules":
 			{
-				"@typescript-eslint/type-annotation-spacing": "error",
+				"@typescript-eslint/type-annotation-spacing":
+				[
+					"error",
+					{
+						"before": true,
+						"after": true
+					}
+				],
 				"@typescript-eslint/typedef":
 				[
 					"error",
@@ -122,6 +134,7 @@
 					}
 				],
 				"@typescript-eslint/explicit-module-boundary-types": "error",
+				"no-require-imports": "error",
 				"unused-imports/no-unused-imports": "error",
 				"unused-imports/no-unused-vars": "error"
 			}
