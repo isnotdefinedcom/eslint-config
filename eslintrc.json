@@ -4,7 +4,7 @@
 		{
 			"files":
 			[
-				"*.ts",
+				"*.js",
 				"*.ts"
 			],
 			"plugins":
@@ -47,7 +47,6 @@
 				"no-useless-concat": "error",
 				"no-else-return": "error",
 				"no-empty": "error",
-				"no-multiple-empty-lines": "error",
 				"no-var": "error",
 				"object-shorthand": "error",
 				"prefer-const": "error",
