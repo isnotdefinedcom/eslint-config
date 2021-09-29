@@ -1,76 +1,116 @@
 {
-	"extends":
+	"overrides":
 	[
-		"eslint:recommended"
-	],
-	"rules":
-	{
-		"arrow-parens":
-		[
-			"error",
-			"as-needed"
-		],
-		"brace-style":
-		[
-			"error",
-			"allman"
-		],
-		"comma-dangle": "error",
-		"comma-spacing": "error",
-		"indent":
-		[
-			"error",
-			"tab",
+		{
+			"files":
+			[
+				"*.ts",
+				"*.ts"
+			],
+			"plugins":
+			[
+				"promise"
+			],
+			"rules":
 			{
-				"CallExpression":
-				{
-					"arguments": "off"
-				},
-				"ignoredNodes":
+				"arrow-parens":
 				[
-					"ConditionalExpression",
-					"MemberExpression"
+					"error",
+					"as-needed"
+				],
+				"brace-style":
+				[
+					"error",
+					"allman"
+				],
+				"comma-dangle": "error",
+				"comma-spacing": "error",
+				"indent":
+				[
+					"error",
+					"tab",
+					{
+						"CallExpression":
+						{
+							"arguments": "off"
+						},
+						"ignoredNodes":
+						[
+							"ConditionalExpression",
+							"MemberExpression"
+						]
+					}
+				],
+				"newline-after-var": "error",
+				"no-var": "error",
+				"object-shorthand": "error",
+				"promise/catch-or-return": "error",
+				"semi": "error"
+			}
+		},
+		{
+			"files":
+			[
+				"*.js"
+			],
+			"plugins":
+			[
+				"jsdoc"
+			],
+			"rules":
+			{
+				"jsdoc/check-alignment": "error",
+				"jsdoc/check-indentation": "error",
+				"jsdoc/check-types": "error",
+				"jsdoc/no-undefined-types": "error",
+				"jsdoc/require-description": "error",
+				"jsdoc/require-jsdoc": "error",
+				"jsdoc/require-param": "error",
+				"jsdoc/require-param-name": "error",
+				"jsdoc/require-param-type": "error",
+				"jsdoc/require-returns":
+				[
+					"error",
+					{
+						"forceRequireReturn": true
+					}
+				],
+				"jsdoc/require-returns-check": "error",
+				"jsdoc/require-returns-type": "error"
+			},
+			"settings":
+			{
+				"jsdoc":
+				{
+					"maxLines": 2,
+					"tagNamePreference":
+					{
+						"returns": "return"
+					}
+				}
+			}
+		},
+		{
+			"files":
+			[
+				"*.ts"
+			],
+			"plugins":
+			[
+				"@typescript-eslint/eslint-plugin",
+				"unused-imports"
+			],
+			"rules":
+			{
+				"@typescript-eslint/type-annotation-spacing":
+				[
+					"error",
+					{
+						"before": true,
+						"after": true
+					}
 				]
 			}
-		],
-		"jsdoc/check-alignment": "error",
-		"jsdoc/check-indentation": "error",
-		"jsdoc/check-types": "error",
-		"jsdoc/no-undefined-types": "error",
-		"jsdoc/require-description": "error",
-		"jsdoc/require-jsdoc": "error",
-		"jsdoc/require-param": "error",
-		"jsdoc/require-param-name": "error",
-		"jsdoc/require-param-type": "error",
-		"jsdoc/require-returns":
-		[
-			"error",
-			{
-				"forceRequireReturn": true
-			}
-		],
-		"jsdoc/require-returns-check": "error",
-		"jsdoc/require-returns-type": "error",
-		"newline-after-var": "error",
-		"no-var": "error",
-		"object-shorthand": "error",
-		"promise/catch-or-return": "error",
-		"semi": "error"
-	},
-	"plugins":
-	[
-		"jsdoc",
-		"promise"
-	],
-	"settings":
-	{
-		"jsdoc":
-		{
-			"maxLines": 2,
-			"tagNamePreference":
-			{
-				"returns": "return"
-			}
 		}
-	}
+	]
 }
