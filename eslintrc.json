@@ -42,8 +42,8 @@
 					}
 				],
 				"newline-after-var": "error",
-				"no-debugger": "error",
 				"no-console": "error",
+				"no-debugger": "error",
 				"no-useless-concat": "error",
 				"no-else-return": "error",
 				"no-empty": "error",
@@ -127,7 +127,7 @@
 						"variableDeclaration": true
 					}
 				],
-				"explicit-function-return-type": "error",
+				"@typescript-eslint/explicit-function-return-type": "error",
 				"unused-imports/no-unused-imports": "error",
 				"unused-imports/no-unused-vars": "error"
 			}
