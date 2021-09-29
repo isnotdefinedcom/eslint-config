@@ -134,7 +134,7 @@
 					}
 				],
 				"@typescript-eslint/explicit-module-boundary-types": "error",
-				"no-require-imports": "error",
+				"@typescript-eslint/no-require-imports": "error",
 				"unused-imports/no-unused-imports": "error",
 				"unused-imports/no-unused-vars": "error"
 			}
