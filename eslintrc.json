@@ -67,6 +67,11 @@
 				"no-empty": "error",
 				"no-var": "error",
 				"object-shorthand": "error",
+				"object-curly-spacing":
+				[
+					"error",
+					"always"
+				],
 				"prefer-const": "error",
 				"promise/catch-or-return": "error",
 				"quotes":
