@@ -114,9 +114,14 @@
 				"*.ts"
 			],
 			"parser": "@typescript-eslint/parser",
+			"parserOptions":
+			{
+				"project": "tsconfig.json"
+			},
 			"plugins":
 			[
 				"@typescript-eslint/eslint-plugin",
+				"deprecation",
 				"unused-imports"
 			],
 			"rules":
@@ -141,6 +146,7 @@
 				],
 				"@typescript-eslint/explicit-module-boundary-types": "error",
 				"@typescript-eslint/no-require-imports": "error",
+				"deprecation/deprecation": "error",
 				"unused-imports/no-unused-imports": "error",
 				"unused-imports/no-unused-vars": "error"
 			}
