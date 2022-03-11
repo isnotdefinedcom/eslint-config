@@ -1,7 +1,7 @@
 {
 	"name": "eslint-config-redaxmedia",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "4.0.0-beta.1",
+	"version": "4.0.0",
 	"license": "MIT",
 	"keywords":
 	[
