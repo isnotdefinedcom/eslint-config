@@ -9,8 +9,11 @@
 			],
 			"plugins":
 			[
-				"jsdoc",
-				"promise"
+				"deprecation",
+				"eslint-comments",
+				"promise",
+				"rxjs",
+				"unused-imports"
 			],
 			"rules":
 			{
@@ -26,6 +29,8 @@
 				],
 				"comma-dangle": "error",
 				"comma-spacing": "error",
+				"deprecation/deprecation": "error",
+				"eslint-comments/no-use": "error",
 				"indent":
 				[
 					"error",
@@ -42,23 +47,6 @@
 						]
 					}
 				],
-				"jsdoc/check-alignment": "error",
-				"jsdoc/check-indentation": "error",
-				"jsdoc/check-types": "error",
-				"jsdoc/require-description": "error",
-				"jsdoc/require-jsdoc": "error",
-				"jsdoc/require-param": "error",
-				"jsdoc/require-param-name": "error",
-				"jsdoc/require-param-type": "error",
-				"jsdoc/require-returns":
-				[
-					"error",
-					{
-						"forceRequireReturn": true
-					}
-				],
-				"jsdoc/require-returns-check": "error",
-				"jsdoc/require-returns-type": "error",
 				"newline-after-var": "error",
 				"no-console": "error",
 				"no-debugger": "error",
@@ -79,7 +67,12 @@
 					"error",
 					"single"
 				],
-				"semi": "error"
+				"rxjs/no-compat": "error",
+				"rxjs/no-nested-subscribe": "error",
+				"rxjs/no-topromise": "error",
+				"semi": "error",
+				"unused-imports/no-unused-imports": "error",
+				"unused-imports/no-unused-vars": "error"
 			},
 			"settings":
 			{
@@ -104,8 +97,24 @@
 			],
 			"rules":
 			{
+				"jsdoc/check-alignment": "error",
+				"jsdoc/check-indentation": "error",
+				"jsdoc/check-types": "error",
 				"jsdoc/no-undefined-types": "error",
-				"no-unused-vars": "error"
+				"jsdoc/require-description": "error",
+				"jsdoc/require-jsdoc": "error",
+				"jsdoc/require-param": "error",
+				"jsdoc/require-param-name": "error",
+				"jsdoc/require-param-type": "error",
+				"jsdoc/require-returns":
+				[
+					"error",
+					{
+						"forceRequireReturn": true
+					}
+				],
+				"jsdoc/require-returns-check": "error",
+				"jsdoc/require-returns-type": "error"
 			}
 		},
 		{
@@ -120,13 +129,17 @@
 			},
 			"plugins":
 			[
-				"@typescript-eslint/eslint-plugin",
-				"deprecation",
-				"rxjs",
-				"unused-imports"
+				"@typescript-eslint/eslint-plugin"
 			],
 			"rules":
 			{
+				"@typescript-eslint/ban-ts-comment": "error",
+				"@typescript-eslint/dot-notation": "error",
+				"@typescript-eslint/explicit-module-boundary-types": "error",
+				"@typescript-eslint/member-ordering": "error",
+				"@typescript-eslint/no-require-imports": "error",
+				"@typescript-eslint/no-unsafe-member-access": "error",
+				"@typescript-eslint/no-useless-constructor": "error",
 				"@typescript-eslint/type-annotation-spacing":
 				[
 					"error",
@@ -144,15 +157,7 @@
 						"propertyDeclaration": true,
 						"variableDeclaration": true
 					}
-				],
-				"@typescript-eslint/explicit-module-boundary-types": "error",
-				"@typescript-eslint/no-require-imports": "error",
-				"deprecation/deprecation": "error",
-				"rxjs/no-compat": "error",
-				"rxjs/no-nested-subscribe": "error",
-				"rxjs/no-topromise": "error",
-				"unused-imports/no-unused-imports": "error",
-				"unused-imports/no-unused-vars": "error"
+				]
 			}
 		}
 	]
