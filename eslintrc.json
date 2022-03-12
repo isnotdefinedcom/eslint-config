@@ -13,6 +13,7 @@
 				"eslint-comments",
 				"promise",
 				"rxjs",
+				"jsdoc",
 				"unused-imports"
 			],
 			"rules":
@@ -47,6 +48,23 @@
 						]
 					}
 				],
+				"jsdoc/check-alignment": "error",
+				"jsdoc/check-indentation": "error",
+				"jsdoc/check-types": "error",
+				"jsdoc/require-description": "error",
+				"jsdoc/require-jsdoc": "error",
+				"jsdoc/require-param": "error",
+				"jsdoc/require-param-name": "error",
+				"jsdoc/require-param-type": "error",
+				"jsdoc/require-returns":
+				[
+					"error",
+					{
+						"forceRequireReturn": true
+					}
+				],
+				"jsdoc/require-returns-check": "error",
+				"jsdoc/require-returns-type": "error",
 				"newline-after-var": "error",
 				"no-console": "error",
 				"no-debugger": "error",
@@ -97,24 +115,7 @@
 			],
 			"rules":
 			{
-				"jsdoc/check-alignment": "error",
-				"jsdoc/check-indentation": "error",
-				"jsdoc/check-types": "error",
-				"jsdoc/no-undefined-types": "error",
-				"jsdoc/require-description": "error",
-				"jsdoc/require-jsdoc": "error",
-				"jsdoc/require-param": "error",
-				"jsdoc/require-param-name": "error",
-				"jsdoc/require-param-type": "error",
-				"jsdoc/require-returns":
-				[
-					"error",
-					{
-						"forceRequireReturn": true
-					}
-				],
-				"jsdoc/require-returns-check": "error",
-				"jsdoc/require-returns-type": "error"
+				"jsdoc/no-undefined-types": "error"
 			}
 		},
 		{
