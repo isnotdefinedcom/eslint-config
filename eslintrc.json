@@ -5,7 +5,9 @@
 			"files":
 			[
 				"*.js",
-				"*.ts"
+				"*.jsx",
+				"*.ts",
+				"*.tsx"
 			],
 			"plugins":
 			[
@@ -108,7 +110,8 @@
 		{
 			"files":
 			[
-				"*.js"
+				"*.js",
+				"*.jsx"
 			],
 			"plugins":
 			[
@@ -122,7 +125,8 @@
 		{
 			"files":
 			[
-				"*.ts"
+				"*.ts",
+				"*.tsx"
 			],
 			"parser": "@typescript-eslint/parser",
 			"parserOptions":
