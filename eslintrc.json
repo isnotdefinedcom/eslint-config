@@ -71,9 +71,17 @@
 				"newline-after-var": "error",
 				"no-console": "error",
 				"no-debugger": "error",
-				"no-useless-concat": "error",
 				"no-else-return": "error",
 				"no-empty": "error",
+				"no-multiple-empty-lines":
+				[
+					"error",
+					{
+						"max": 1,
+						"maxBOF": 1
+					}
+				],
+				"no-useless-concat": "error",
 				"no-var": "error",
 				"object-shorthand": "error",
 				"object-curly-spacing":
