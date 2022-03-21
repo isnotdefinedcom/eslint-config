@@ -78,6 +78,7 @@
 				"no-debugger": "error",
 				"no-else-return": "error",
 				"no-empty": "error",
+				"no-extra-semi": "error",
 				"no-multiple-empty-lines":
 				[
 					"error",
