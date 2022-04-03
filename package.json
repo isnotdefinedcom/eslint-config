@@ -1,5 +1,5 @@
 {
-	"name": "eslint-config-redaxmedia",
+	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
 	"version": "4.3.0",
 	"license": "MIT",
@@ -13,16 +13,16 @@
 	"author":
 	{
 		"name": "Henry Ruhs",
-		"url": "https://redaxmedia.com"
+		"url": "https://henryruhs.com"
 	},
 	"bugs":
 	{
-		"url": "https://github.com/redaxmedia/eslint-config-redaxmedia/issues"
+		"url": "https://github.com/isnotdefined-com/eslint-config/issues"
 	},
 	"repository":
 	{
 		"type": "git",
-		"url": "https://github.com/redaxmedia/eslint-config-redaxmedia.git"
+		"url": "https://github.com/isnotdefined-com/eslint-config.git"
 	},
 	"dependencies":
 	{

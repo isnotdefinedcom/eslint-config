@@ -1,17 +1,17 @@
-ESLint Config Redaxmedia
-========================
+ESLint Config
+=============
 
 > Yet another JavaScript and TypeScript coding standard.
 
-[![NPM Version](https://img.shields.io/npm/v/eslint-config-redaxmedia.svg)](https://npmjs.com/package/eslint-config-redaxmedia)
-[![License](https://img.shields.io/npm/l/eslint-config-redaxmedia.svg)](https://npmjs.com/package/eslint-config-redaxmedia)
+[![NPM Version](https://img.shields.io/npm/v/@isnotdefined/eslint-config.svg)](https://npmjs.com/package/@isnotdefined/eslint-config)
+[![License](https://img.shields.io/npm/l/@isnotdefined/eslint-config.svg)](https://npmjs.com/package/@isnotdefined/eslint-config)
 
 
 Installation
 ------------
 
 ```
-npm install eslint-config-redaxmedia
+npm install @isnotdefined/eslint-config
 ```
 
 
@@ -24,7 +24,7 @@ Refer the coding standard inside your `.eslintrc` file:
 {
 	"extends":
 	[
-		"eslint-config-redaxmedia"
+		"@isnotdefined/eslint-config"
 	]
 }
 ```
