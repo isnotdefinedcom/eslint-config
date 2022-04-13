@@ -1,7 +1,7 @@
 {
 	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "4.5.0",
+	"version": "4.5.1",
 	"license": "MIT",
 	"keywords":
 	[
@@ -31,6 +31,7 @@
 		"eslint-plugin-deprecation": "1.3.2",
 		"eslint-plugin-eslint-comments": "3.2.0",
 		"eslint-plugin-jsdoc": "39.2.1",
+		"eslint-plugin-jsonc": "2.2.1",
 		"jsonc-eslint-parser": "2.1.0",
 		"eslint-plugin-promise": "6.0.0",
 		"eslint-plugin-rxjs": "5.0.2",
