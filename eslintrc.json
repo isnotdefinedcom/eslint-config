@@ -4,6 +4,26 @@
 		{
 			"files":
 			[
+				"*.json"
+			],
+			"parser": "jsonc-eslint-parser",
+			"plugins":
+			[
+				"jsonc"
+			],
+			"rules":
+			{
+				"jsonc/indent":
+				[
+					"error",
+					"tab"
+				],
+				"jsonc/key-spacing": "error"
+			}
+		},
+		{
+			"files":
+			[
 				"*.js",
 				"*.jsx",
 				"*.ts",
