@@ -124,6 +124,11 @@
 					"error",
 					"always"
 				],
+				"padded-blocks":
+				[
+					"error",
+					"never"
+				],
 				"prefer-const": "error",
 				"promise/catch-or-return": "error",
 				"quotes":
