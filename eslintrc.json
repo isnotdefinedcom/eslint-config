@@ -93,6 +93,14 @@
 				],
 				"jsdoc/require-returns-check": "error",
 				"jsdoc/require-returns-type": "error",
+				"lines-between-class-members":
+				[
+					"error",
+					"always",
+					{
+						"exceptAfterSingleLine": true
+					}
+				],
 				"newline-after-var": "error",
 				"no-console": "error",
 				"no-debugger": "error",
