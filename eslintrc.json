@@ -31,10 +31,8 @@
 			],
 			"plugins":
 			[
-				"deprecation",
 				"eslint-comments",
 				"promise",
-				"rxjs",
 				"jsdoc",
 				"unused-imports"
 			],
@@ -57,7 +55,6 @@
 				],
 				"comma-dangle": "error",
 				"comma-spacing": "error",
-				"deprecation/deprecation": "error",
 				"eslint-comments/no-use": "error",
 				"indent":
 				[
@@ -136,9 +133,6 @@
 					"error",
 					"single"
 				],
-				"rxjs/no-compat": "error",
-				"rxjs/no-nested-subscribe": "error",
-				"rxjs/no-topromise": "error",
 				"semi": "error",
 				"space-before-function-paren":
 				[
@@ -189,7 +183,9 @@
 			},
 			"plugins":
 			[
-				"@typescript-eslint/eslint-plugin"
+				"@typescript-eslint/eslint-plugin",
+				"deprecation/deprecation",
+				"rxjs"
 			],
 			"rules":
 			{
@@ -224,7 +220,11 @@
 						"propertyDeclaration": true,
 						"variableDeclaration": true
 					}
-				]
+				],
+				"deprecation/deprecation": "error",
+				"rxjs/no-compat": "error",
+				"rxjs/no-nested-subscribe": "error",
+				"rxjs/no-topromise": "error"
 			}
 		}
 	]
