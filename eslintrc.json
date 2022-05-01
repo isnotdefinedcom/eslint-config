@@ -184,7 +184,7 @@
 			"plugins":
 			[
 				"@typescript-eslint/eslint-plugin",
-				"deprecation/deprecation",
+				"deprecation",
 				"rxjs"
 			],
 			"rules":
