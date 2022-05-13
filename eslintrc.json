@@ -33,7 +33,6 @@
 			[
 				"eslint-comments",
 				"promise",
-				"jsdoc",
 				"unused-imports"
 			],
 			"rules":
@@ -73,23 +72,6 @@
 						]
 					}
 				],
-				"jsdoc/check-alignment": "error",
-				"jsdoc/check-indentation": "error",
-				"jsdoc/check-types": "error",
-				"jsdoc/require-description": "error",
-				"jsdoc/require-jsdoc": "error",
-				"jsdoc/require-param": "error",
-				"jsdoc/require-param-name": "error",
-				"jsdoc/require-param-type": "error",
-				"jsdoc/require-returns":
-				[
-					"error",
-					{
-						"forceRequireReturn": true
-					}
-				],
-				"jsdoc/require-returns-check": "error",
-				"jsdoc/require-returns-type": "error",
 				"lines-between-class-members":
 				[
 					"error",
@@ -142,32 +124,6 @@
 				"space-infix-ops": "error",
 				"unused-imports/no-unused-imports": "error",
 				"unused-imports/no-unused-vars": "error"
-			},
-			"settings":
-			{
-				"jsdoc":
-				{
-					"maxLines": 2,
-					"tagNamePreference":
-					{
-						"returns": "return"
-					}
-				}
-			}
-		},
-		{
-			"files":
-			[
-				"*.js",
-				"*.jsx"
-			],
-			"plugins":
-			[
-				"jsdoc"
-			],
-			"rules":
-			{
-				"jsdoc/no-undefined-types": "error"
 			}
 		},
 		{
