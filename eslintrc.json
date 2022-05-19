@@ -171,9 +171,11 @@
 				[
 					"error",
 					{
+						"arrayDestructuring": true,
 						"memberVariableDeclaration": true,
 						"parameter": true,
 						"propertyDeclaration": true,
+						"objectDestructuring": true,
 						"variableDeclaration": true
 					}
 				],
