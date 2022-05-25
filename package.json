@@ -17,12 +17,12 @@
 	},
 	"bugs":
 	{
-		"url": "https://github.com/isnotdefined-com/eslint-config/issues"
+		"url": "https://github.com/isnotdefinedcom/eslint-config/issues"
 	},
 	"repository":
 	{
 		"type": "git",
-		"url": "https://github.com/isnotdefined-com/eslint-config.git"
+		"url": "https://github.com/isnotdefinedcom/eslint-config.git"
 	},
 	"dependencies":
 	{
