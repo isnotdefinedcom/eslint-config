@@ -1,7 +1,7 @@
 {
 	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "6.0.0-beta.1",
+	"version": "6.0.0-beta.2",
 	"license": "MIT",
 	"keywords":
 	[
@@ -26,6 +26,7 @@
 	},
 	"dependencies":
 	{
+		"@angular-eslint/eslint-plugin": "14.0.0",
 		"@angular-eslint/eslint-plugin-template": "14.0.0",
 		"@angular-eslint/template-parser": "14.0.0",
 		"@typescript-eslint/eslint-plugin": "5.29.0",

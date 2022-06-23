@@ -14,8 +14,19 @@
 			"processor": "@angular-eslint/template/extract-inline-html",
 			"plugins":
 			[
-				"@angular-eslint/template"
-			]
+				"@angular-eslint",
+				"@angular-eslint/template",
+				"@typescript-eslint"
+			],
+			"rules":
+			{
+				"@angular-eslint/contextual-decorator": "error",
+				"@angular-eslint/contextual-lifecycle": "error",
+				"@angular-eslint/no-empty-lifecycle-method": "error",
+				"@angular-eslint/no-lifecycle-call": "error",
+				"@angular-eslint/use-component-view-encapsulation": "error",
+				"@angular-eslint/use-injectable-provided-in": "error"
+			}
 		},
 		{
 			"files":
