@@ -1,0 +1,42 @@
+{
+	"overrides":
+	[
+		{
+			"files":
+			[
+				"*.ts"
+			],
+			"parser": "@typescript-eslint/parser",
+			"parserOptions":
+			{
+				"project": "tsconfig.json"
+			},
+			"processor": "@angular-eslint/template/extract-inline-html",
+			"plugins":
+			[
+				"@angular-eslint/template"
+			]
+		},
+		{
+			"files":
+			[
+				"*.html"
+			],
+			"parser": "@angular-eslint/template-parser",
+			"plugins":
+			[
+				"@angular-eslint/template"
+			],
+			"rules":
+			{
+				"@angular-eslint/template/banana-in-box": "error",
+				"@angular-eslint/template/conditional-complexity": "error",
+				"@angular-eslint/template/cyclomatic-complexity": "error",
+				"@angular-eslint/template/eqeqeq": "error",
+				"@angular-eslint/template/no-any": "error",
+				"@angular-eslint/template/no-duplicate-attributes": "error",
+				"@angular-eslint/template/no-negated-async": "error"
+			}
+		}
+	]
+}
