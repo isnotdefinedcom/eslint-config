@@ -119,7 +119,11 @@
 				"space-before-function-paren":
 				[
 					"error",
-					"never"
+					{
+						"anonymous": "never",
+						"named": "never",
+						"asyncArrow": "always"
+					}
 				],
 				"space-infix-ops": "error",
 				"unused-imports/no-unused-imports": "error",
