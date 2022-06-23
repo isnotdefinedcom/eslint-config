@@ -182,6 +182,7 @@
 				"deprecation/deprecation": "error",
 				"rxjs/no-compat": "error",
 				"rxjs/no-nested-subscribe": "error",
+				"rxjs/no-unsafe-takeuntil": "error",
 				"rxjs/no-topromise": "error"
 			}
 		}
