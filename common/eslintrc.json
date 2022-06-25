@@ -32,6 +32,7 @@
 			"plugins":
 			[
 				"eslint-comments",
+				"import",
 				"promise",
 				"unused-imports"
 			],
@@ -55,6 +56,11 @@
 				"comma-dangle": "error",
 				"comma-spacing": "error",
 				"eslint-comments/no-use": "error",
+				"import/no-absolute-path": "error",
+				"import/no-cycle": "error",
+				"import/no-duplicates": "error",
+				"import/no-self-import": "error",
+				"import/no-useless-path-segments": "error",
 				"indent":
 				[
 					"error",
