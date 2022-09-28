@@ -25,7 +25,17 @@
 				"@angular-eslint/no-empty-lifecycle-method": "error",
 				"@angular-eslint/no-lifecycle-call": "error",
 				"@angular-eslint/use-component-view-encapsulation": "error",
-				"@angular-eslint/use-injectable-provided-in": "error"
+				"@angular-eslint/use-injectable-provided-in": "error",
+				"no-restricted-globals":
+				[
+					"error",
+					{
+						"name": "document"
+					},
+					{
+						"name": "window"
+					}
+				]
 			}
 		},
 		{
