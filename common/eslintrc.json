@@ -34,6 +34,7 @@
 				"eslint-comments",
 				"import",
 				"promise",
+				"unicorn",
 				"unused-imports"
 			],
 			"rules":
@@ -132,6 +133,16 @@
 					}
 				],
 				"space-infix-ops": "error",
+				"unicorn/prefer-array-find": "error",
+				"unicorn/prefer-array-some": "error",
+				"unicorn/prefer-at":
+				[
+					"error",
+					{
+						"checkAllIndexAccess": true
+					}
+				],
+				"unicorn/prefer-includes": "error",
 				"unused-imports/no-unused-imports": "error",
 				"unused-imports/no-unused-vars": "error"
 			},
