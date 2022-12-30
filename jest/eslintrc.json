@@ -1,0 +1,38 @@
+{
+	"overrides":
+	[
+		{
+			"files":
+			[
+				"*.spec.ts",
+				"*.spec.tsx"
+			],
+			"parser": "@typescript-eslint/parser",
+			"parserOptions":
+			{
+				"project": "tsconfig.json"
+			},
+			"plugins":
+			[
+				"jest",
+				"jest-formatting"
+			],
+			"rules":
+			{
+				"jest-formatting/padding-around-after-all-blocks": "error",
+				"jest-formatting/padding-around-after-each-blocks": "error",
+				"jest-formatting/padding-around-before-all-blocks": "error",
+				"jest-formatting/padding-around-before-each-blocks": "error",
+				"jest-formatting/padding-around-describe-blocks": "error",
+				"jest-formatting/padding-around-test-blocks": "error",
+				"jest/consistent-test-it": "error",
+				"jest/no-focused-tests": "error",
+				"jest/prefer-each": "error",
+				"jest/prefer-hooks-in-order": "error",
+				"jest/prefer-hooks-on-top": "error",
+				"jest/prefer-to-have-length": "error",
+				"jest/valid-title": "error"
+			}
+		}
+	]
+}

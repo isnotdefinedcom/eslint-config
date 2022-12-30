@@ -25,7 +25,8 @@ Refer the coding standard inside your `.eslintrc` file:
 	"extends":
 	[
 		"@isnotdefined/eslint-config/angular",
-		"@isnotdefined/eslint-config/common"
+		"@isnotdefined/eslint-config/common",
+		"@isnotdefined/eslint-config/jest"
 	]
 }
 ```
