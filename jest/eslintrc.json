@@ -19,18 +19,18 @@
 			],
 			"rules":
 			{
-				"jest-formatting/padding-around-after-all-blocks": "error",
-				"jest-formatting/padding-around-after-each-blocks": "error",
-				"jest-formatting/padding-around-before-all-blocks": "error",
-				"jest-formatting/padding-around-before-each-blocks": "error",
-				"jest-formatting/padding-around-describe-blocks": "error",
-				"jest-formatting/padding-around-test-blocks": "error",
 				"jest/consistent-test-it": "error",
 				"jest/no-focused-tests": "error",
 				"jest/prefer-each": "error",
 				"jest/prefer-hooks-in-order": "error",
 				"jest/prefer-hooks-on-top": "error",
-				"jest/prefer-to-have-length": "error"
+				"jest/prefer-to-have-length": "error",
+				"jest-formatting/padding-around-after-all-blocks": "error",
+				"jest-formatting/padding-around-after-each-blocks": "error",
+				"jest-formatting/padding-around-before-all-blocks": "error",
+				"jest-formatting/padding-around-before-each-blocks": "error",
+				"jest-formatting/padding-around-describe-blocks": "error",
+				"jest-formatting/padding-around-test-blocks": "error"
 			}
 		}
 	]
