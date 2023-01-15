@@ -26,6 +26,7 @@ Refer the coding standard inside your `.eslintrc` file:
 	[
 		"@isnotdefined/eslint-config/angular",
 		"@isnotdefined/eslint-config/common",
+		"@isnotdefined/eslint-config/cypress",
 		"@isnotdefined/eslint-config/jest"
 	]
 }

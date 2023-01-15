@@ -4,7 +4,9 @@
 		{
 			"files":
 			[
+				"*.spec.js",
 				"*.spec.ts",
+				"*.spec.jsx",
 				"*.spec.tsx"
 			],
 			"parser": "@typescript-eslint/parser",
