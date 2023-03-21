@@ -49,6 +49,7 @@
 					"error",
 					"as-needed"
 				],
+				"arrow-spacing": "error",
 				"brace-style":
 				[
 					"error",
@@ -57,6 +58,7 @@
 				"comma-dangle": "error",
 				"comma-spacing": "error",
 				"eslint-comments/no-use": "error",
+				"func-call-spacing": "error",
 				"import/no-absolute-path": "error",
 				"import/no-cycle": "error",
 				"import/no-duplicates": "error",
@@ -79,6 +81,7 @@
 						]
 					}
 				],
+				"key-spacing": "error",
 				"lines-between-class-members":
 				[
 					"error",
@@ -87,12 +90,17 @@
 						"exceptAfterSingleLine": true
 					}
 				],
+				"max-classes-per-file": "error",
+				"new-parens": "error",
 				"newline-after-var": "error",
 				"no-console": "error",
 				"no-debugger": "error",
 				"no-else-return": "error",
 				"no-empty": "error",
+				"no-extra-parens": "error",
 				"no-extra-semi": "error",
+				"no-lone-blocks": "error",
+				"no-lonely-if": "error",
 				"no-multi-spaces": "error",
 				"no-multiple-empty-lines":
 				[
@@ -103,6 +111,11 @@
 					}
 				],
 				"no-useless-concat": "error",
+				"no-useless-constructor": "error",
+				"no-useless-computed-key": "error",
+				"no-useless-rename": "error",
+				"no-unreachable": "error",
+				"no-whitespace-before-property": "error",
 				"no-var": "error",
 				"object-shorthand": "error",
 				"object-curly-spacing":
@@ -116,13 +129,17 @@
 					"never"
 				],
 				"prefer-const": "error",
+				"prefer-destructuring": "error",
+				"prefer-spread": "error",
 				"promise/catch-or-return": "error",
 				"quotes":
 				[
 					"error",
 					"single"
 				],
+				"rest-spread-spacing": "error",
 				"semi": "error",
+				"semi-spacing": "error",
 				"space-before-function-paren":
 				[
 					"error",
@@ -133,6 +150,7 @@
 					}
 				],
 				"space-infix-ops": "error",
+				"space-unary-ops": "error",
 				"unicorn/prefer-array-find": "error",
 				"unicorn/prefer-array-some": "error",
 				"unicorn/prefer-at":
