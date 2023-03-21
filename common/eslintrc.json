@@ -110,6 +110,8 @@
 						"maxBOF": 1
 					}
 				],
+				"no-return-assign": "error",
+				"no-useless-catch": "error",
 				"no-useless-concat": "error",
 				"no-useless-constructor": "error",
 				"no-useless-computed-key": "error",
