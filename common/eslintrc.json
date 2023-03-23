@@ -90,7 +90,6 @@
 						"exceptAfterSingleLine": true
 					}
 				],
-				"max-classes-per-file": "error",
 				"new-parens": "error",
 				"newline-after-var": "error",
 				"no-console": "error",
