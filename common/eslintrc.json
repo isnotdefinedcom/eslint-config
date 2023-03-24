@@ -59,11 +59,20 @@
 				"comma-spacing": "error",
 				"eslint-comments/no-use": "error",
 				"func-call-spacing": "error",
+				"import/newline-after-import": "error",
 				"import/no-absolute-path": "error",
 				"import/no-cycle": "error",
 				"import/no-duplicates": "error",
+				"import/no-empty-named-blocks": "error",
 				"import/no-self-import": "error",
 				"import/no-useless-path-segments": "error",
+				"import/order":
+				[
+					"error",
+					{
+						"newlines-between": "always"
+					}
+				],
 				"indent":
 				[
 					"error",
