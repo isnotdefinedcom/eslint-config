@@ -105,7 +105,6 @@
 				"no-debugger": "error",
 				"no-else-return": "error",
 				"no-empty": "error",
-				"no-extra-parens": "error",
 				"no-extra-semi": "error",
 				"no-lone-blocks": "error",
 				"no-lonely-if": "error",
@@ -118,7 +117,6 @@
 						"maxBOF": 1
 					}
 				],
-				"no-return-assign": "error",
 				"no-useless-catch": "error",
 				"no-useless-concat": "error",
 				"no-useless-computed-key": "error",
