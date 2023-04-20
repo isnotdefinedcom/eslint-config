@@ -81,6 +81,7 @@
 						"ignoredNodes":
 						[
 							"CallExpression",
+							"ConditionalExpression",
 							"MemberExpression",
 							"ObjectExpression"
 						]
