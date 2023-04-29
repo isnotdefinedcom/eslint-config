@@ -1,7 +1,7 @@
 {
 	"name": "@isnotdefined/eslint-config",
 	"description": "Yet another JavaScript and TypeScript coding standard",
-	"version": "9.4.0",
+	"version": "9.5.0",
 	"license": "MIT",
 	"keywords":
 	[
@@ -35,7 +35,7 @@
 		"@angular-eslint/template-parser": "15.2.1",
 		"@typescript-eslint/eslint-plugin": "5.59.1",
 		"@typescript-eslint/parser": "5.59.1",
-		"eslint-plugin-cypress": "2.13.2",
+		"eslint-plugin-cypress": "2.13.3",
 		"eslint-plugin-deprecation": "1.4.1",
 		"eslint-plugin-import": "2.27.5",
 		"eslint-plugin-eslint-comments": "3.2.0",
