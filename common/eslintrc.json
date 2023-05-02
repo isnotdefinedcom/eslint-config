@@ -39,6 +39,7 @@
 			],
 			"rules":
 			{
+				"accessor-pairs": "error",
 				"array-bracket-spacing":
 				[
 					"error",
@@ -59,6 +60,11 @@
 				"comma-spacing": "error",
 				"eslint-comments/no-use": "error",
 				"func-call-spacing": "error",
+				"grouped-accessor-pairs":
+				[
+					"error",
+					"getBeforeSet"
+				],
 				"import/newline-after-import": "error",
 				"import/no-absolute-path": "error",
 				"import/no-cycle": "error",
@@ -100,6 +106,9 @@
 				"newline-after-var": "error",
 				"no-console": "error",
 				"no-debugger": "error",
+				"no-dupe-args": "error",
+				"no-dupe-class-members": "error",
+				"no-dupe-keys": "error",
 				"no-else-return": "error",
 				"no-empty": "error",
 				"no-extra-semi": "error",
@@ -156,6 +165,7 @@
 				],
 				"space-infix-ops": "error",
 				"space-unary-ops": "error",
+				"unicorn/no-useless-undefined": "error",
 				"unicorn/prefer-array-find": "error",
 				"unicorn/prefer-array-some": "error",
 				"unicorn/prefer-at":
@@ -165,7 +175,9 @@
 						"checkAllIndexAccess": true
 					}
 				],
+				"unicorn/prefer-add-event-listener": "error",
 				"unicorn/prefer-includes": "error",
+				"unicorn/prefer-modern-dom-apis": "error",
 				"unused-imports/no-unused-imports": "error",
 				"unused-imports/no-unused-vars": "error"
 			},
