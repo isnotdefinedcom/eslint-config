@@ -94,6 +94,7 @@
 					}
 				],
 				"key-spacing": "error",
+				"keyword-spacing": "error",
 				"lines-between-class-members":
 				[
 					"error",
